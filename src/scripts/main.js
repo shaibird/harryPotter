@@ -24,6 +24,8 @@ let finalCatalog  = PotteryList(usingPottery)
 
 console.log(finalCatalog)
 
+const parentHTMLElement = document.querySelector(".potteryPanel")
+parentHTMLElement.innerHTML = PotteryList(usingPottery)
 
 // Fire each piece of pottery in the kiln
 

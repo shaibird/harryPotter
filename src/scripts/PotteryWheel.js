@@ -9,8 +9,9 @@ export const makePottery = (shape, weight, height) => {
     weight: weight,
     height: height
 
-    };
+    }
 
     primaryKey ++;
+
     return newPot
 }
